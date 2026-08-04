@@ -2,7 +2,7 @@ package arrays;
 
 public class MoveZeroes {
 
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
 
         int n = nums.length;
         int firstZero = 0;
@@ -23,5 +23,12 @@ public class MoveZeroes {
             }
         }
 
+    }
+
+    public static void main(String[] args) {
+
+
+        int []arr = {4,0,2,4,0,0,8,0};
+        moveZeroes(arr);
     }
 }
