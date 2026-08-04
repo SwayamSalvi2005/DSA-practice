@@ -25,10 +25,5 @@ public class MoveZeroes {
 
     }
 
-    public static void main(String[] args) {
 
-
-        int []arr = {4,0,2,4,0,0,8,0};
-        moveZeroes(arr);
-    }
 }
