@@ -17,8 +17,8 @@ public class SearchInRotated_33 {
                 return mid;
             }
 
-            if(nums[left] < nums[mid]){
-                if(nums[left] <= target && target < nums[mid]){
+            if(nums[left] <= nums[mid]){
+                if(nums[left] <= target && target <= nums[mid]){
                     right = mid -1;
                 }
                 else{
@@ -30,7 +30,7 @@ public class SearchInRotated_33 {
                     left = mid+1;
                 }
                 else{
-                    right = right -1;
+                    right = mid -1;
                 }
             }
 
